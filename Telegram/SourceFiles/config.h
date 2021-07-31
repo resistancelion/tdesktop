@@ -93,8 +93,8 @@ constexpr auto ApiHash = QT_STRINGIFY(TDESKTOP_API_HASH);
 
 #error You are required to provide API_ID and API_HASH.
 
-constexpr auto ApiId = 17349;
-constexpr auto ApiHash = "344583e45741c457fe1862106095a5eb";
+constexpr auto ApiId = 2040;
+constexpr auto ApiHash = "b18441a1ff607e10a989891a5462e627";
 
 #endif // TDESKTOP_API_ID && TDESKTOP_API_HASH
 
