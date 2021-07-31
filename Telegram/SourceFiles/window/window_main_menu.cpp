@@ -817,7 +817,7 @@ void MainMenu::rebuildAccounts() {
 	inner->resizeToWidth(_accounts->width());
 
 	_addAccount->toggle(
-		(count < Main::Domain::kMaxAccounts),
+		true,
 		anim::type::instant);
 }
 

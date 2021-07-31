@@ -236,7 +236,6 @@ void Domain::scheduleUpdateUnreadBadge() {
 
 not_null<Main::Account*> Domain::add(MTP::Environment environment) {
 	Expects(started());
-	Expects(_accounts.size() < kMaxAccounts);
 
 	static const auto cloneConfig = [](const MTP::Config &config) {
 		return std::make_unique<MTP::Config>(config);
@@ -283,17 +282,7 @@ not_null<Main::Account*> Domain::add(MTP::Environment environment) {
 }
 
 void Domain::addActivated(MTP::Environment environment) {
-	if (accounts().size() < Main::Domain::kMaxAccounts) {
-		activate(add(environment));
-	} else {
-		for (auto &[index, account] : accounts()) {
-			if (!account->sessionExists()
-				&& account->mtp().environment() == environment) {
-				activate(account.get());
-				break;
-			}
-		}
-	}
+	activate(add(environment));
 }
 
 void Domain::watchSession(not_null<Account*> account) {
