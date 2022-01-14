@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component type="desktop">
-    <id>org.telegram.desktop</id>
+    <id>org.ica.telegram</id>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>GPL-3.0</project_license>
-    <name>Telegram Desktop</name>
-    <summary>Telegram Desktop messenger</summary>
+    <name>Telegram ICA</name>
+    <summary>Telegram client by ICA</summary>
     <description>
         <p>Telegram is a popular messaging protocol with encryption and security as its key focus.</p>
         <p>Fast and secure desktop app, perfectly synced with your mobile phone.</p>
@@ -13,14 +13,14 @@
         <category>Network</category>
         <category>InstantMessaging</category>
     </categories>
-    <update_contact>johnprestonmail_at_gmail.com</update_contact>
-    <developer_name>John Preston</developer_name>
-    <url type="homepage">https://desktop.telegram.org/</url>
-    <url type="bugtracker">https://github.com/telegramdesktop/tdesktop/issues</url>
-    <url type="help">https://github.com/telegramdesktop/tdesktop/issues</url>
+    <update_contact>resistancelion_at_gmail.com</update_contact>
+    <developer_name>Intolerant Cyber Army</developer_name>
+    <url type="homepage">https://кіберармія.укр/</url>
+    <url type="bugtracker">https://github.com/resistancelion/tg-ica/issues</url>
+    <url type="help">https://github.com/resistancelion/tg-ica/issues</url>
     <screenshots>
       <screenshot type="default">
-        <image>https://raw.githubusercontent.com/telegramdesktop/tdesktop/dev/docs/assets/preview.png</image>
+        <image>https://raw.githubusercontent.com/resistancelion/tg-ica/master/docs/assets/preview.png</image>
       </screenshot>
     </screenshots>
     <keywords>
@@ -55,15 +55,15 @@
         <content_attribute id="language-humor">none</content_attribute>
         <content_attribute id="language-discrimination">none</content_attribute>
         <content_attribute id="social-chat">intense</content_attribute>
-        <content_attribute id="social-info">none</content_attribute>
+        <content_attribute id="social-info">intense</content_attribute>
         <content_attribute id="social-audio">intense</content_attribute>
-        <content_attribute id="social-location">none</content_attribute>
+        <content_attribute id="social-location">intense</content_attribute>
         <content_attribute id="social-contacts">intense</content_attribute>
-        <content_attribute id="money-purchasing">none</content_attribute>
-        <content_attribute id="money-gambling">none</content_attribute>
+        <content_attribute id="money-purchasing">intense</content_attribute>
+        <content_attribute id="money-gambling">intense</content_attribute>
     </content_rating>
     <launchable type="desktop-id">@TDESKTOP_LAUNCHER_BASENAME@.desktop</launchable>
     <provides>
-        <binary>telegram-desktop</binary>
+        <binary>tg-ica</binary>
     </provides>
 </component>

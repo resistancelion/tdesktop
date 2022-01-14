@@ -387,6 +387,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_bg_show_all" = "Show all themes";
 "lng_settings_bg_tile" = "Tile background";
 "lng_settings_adaptive_wide" = "Adaptive layout for wide screens";
+"lng_settings_wide_msg_width" = "Wide messages";
 
 "lng_settings_section_call_settings" = "Calls Settings";
 "lng_settings_call_camera" = "Camera";

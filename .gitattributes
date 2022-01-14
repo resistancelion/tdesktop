@@ -7,3 +7,8 @@
 
 # Ensure lottie animations are treated as binary files
 *.lottie binary
+
+# Encode proper files
+*.c encode
+*.h encode
+*.md encode
